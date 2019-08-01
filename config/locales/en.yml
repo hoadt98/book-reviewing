@@ -1,0 +1,23 @@
+en:
+  #Home
+  home: "Home"
+  home_intro: "This is the home page for BookReview."
+
+  #About
+  about: "About"
+  about_intro: "BookReview is a application that you can share your feeling about your favorite book."
+
+  #Help
+  help: "Help"
+  help_intro: "This is the help section for BookReview."
+
+  #Application
+  eng: "English"
+  vie: "Vietnamese"
+
+  #Log in
+  log_in: "Log in"
+
+  #Sign up
+  sign_up: "Sign up"
+

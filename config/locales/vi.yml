@@ -1,0 +1,22 @@
+vi:
+  #Home
+  home: "Trang chủ"
+  home_intro: "Đây là trang chủ của BookReview."
+
+  #About
+  about: "Về chúng tôi"
+  about_intro: "BookReview là ứng dụng giúp bạn chia sẻ cảm nhận về cuốn sách mình yêu thích."
+
+  #Help
+  help: "Trợ giúp"
+  help_intro: "Đây là khu vực trợ giúp của BookReview."
+
+  #Application
+  eng: "Tiếng Anh"
+  vie: "Tiếng Việt"
+
+  #Log in
+  log_in: "Đăng nhập"
+
+  #Sign up
+  sign_up: "Đăng ký"

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title yield(:title) %></title>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
+  </head>
+  <body>
+    <%= render "layouts/header" %>
+    <div>
+      <%= yield %>
+      <%= render "layouts/footer" %>
+      <%= link_to t("eng"), locale:"en" %>
+      <%= link_to t("vie"), locale:"vi" %>
+    </div>
+  </body>
+</html>
