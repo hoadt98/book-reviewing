@@ -2,6 +2,7 @@ vi:
   #Home
   home: "Trang chủ"
   home_intro: "Đây là trang chủ của BookReview."
+  welcome: "Chào mừng đến với BookReview!"
 
   #About
   about: "Về chúng tôi"
@@ -20,3 +21,8 @@ vi:
 
   #Sign up
   sign_up: "Đăng ký"
+  name: "Tên"
+  pass: "Mật khẩu"
+  confirm: "Xác nhận mật khẩu"
+  submit: "Tạo tài khoản"
+  none: "Không tìm thấy người dùng"

@@ -2,6 +2,7 @@ en:
   #Home
   home: "Home"
   home_intro: "This is the home page for BookReview."
+  welcome: "Welcome to BookReview!"
 
   #About
   about: "About"
@@ -20,4 +21,8 @@ en:
 
   #Sign up
   sign_up: "Sign up"
-
+  name: "Name"
+  pass: "Password"
+  confirm: "Confirmation"
+  submit: "Create my account"
+  none: "Can not find user"
