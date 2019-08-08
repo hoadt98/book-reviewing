@@ -18,6 +18,9 @@ en:
 
   #Log in
   log_in: "Log in"
+  new: "New here?"
+  create_free: "Create a free account!"
+  invalid: "Invalid email/password combination"
 
   #Sign up
   sign_up: "Sign up"
