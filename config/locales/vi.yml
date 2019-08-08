@@ -18,6 +18,9 @@ vi:
 
   #Log in
   log_in: "Đăng nhập"
+  new: "Người mới?"
+  create_free: "Tạo một tài khoản miễn phí!"
+  invalid: "Invalid email/password combination"
 
   #Sign up
   sign_up: "Đăng ký"
