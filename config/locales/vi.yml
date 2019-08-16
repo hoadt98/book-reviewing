@@ -1,8 +1,16 @@
 vi:
+  #Header and footer
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+
   #Home
   home: "Trang chủ"
-  home_intro: "Đây là trang chủ của BookReview."
+  home_intro: "Tìm hiểu thêm"
   welcome: "Chào mừng đến với BookReview!"
+  newest: "Sách mới"
+  trans: "dịch"
 
   #About
   about: "Về chúng tôi"
@@ -13,14 +21,16 @@ vi:
   help_intro: "Đây là khu vực trợ giúp của BookReview."
 
   #Application
-  eng: "Tiếng Anh"
-  vie: "Tiếng Việt"
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  top: "Quay lại đầu trang"
 
   #Log in
   log_in: "Đăng nhập"
   new: "Người mới?"
   create_free: "Tạo một tài khoản miễn phí!"
-  invalid: "Invalid email/password combination"
+  invalid: "Email/ mật khẩu không hợp lệ"
+  remember: "Ghi nhớ trên máy tính này"
 
   #Sign up
   sign_up: "Đăng ký"
@@ -29,3 +39,8 @@ vi:
   confirm: "Xác nhận mật khẩu"
   submit: "Tạo tài khoản"
   none: "Không tìm thấy người dùng"
+  error: "lỗi"
+  form_contain: "Biểu mẫu chứa"
+
+  #Search
+  search: "Tìm kiếm"
