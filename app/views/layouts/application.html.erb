@@ -7,13 +7,12 @@
   </head>
   <body>
     <%= render "layouts/header" %>
-    <div>
+    <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
       <%= yield %>
-      <%= link_to t("eng"), locale:"en" %>
-      <%= link_to t("vie"), locale:"vi" %>
+      <hr class="featurette-divider">
       <%= render "layouts/footer" %>
     </div>
   </body>
