@@ -10,41 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_08_040328) do
-
-  create_table "authors", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "author_name"
-    t.text "intro"
-    t.boolean "translator"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "books", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "book_name"
-    t.string "cover"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "category_id"
-    t.bigint "author_id"
-    t.bigint "publishhouse_id"
-    t.index ["author_id"], name: "index_books_on_author_id"
-    t.index ["category_id"], name: "index_books_on_category_id"
-    t.index ["publishhouse_id"], name: "index_books_on_publishhouse_id"
-  end
-
-  create_table "categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "category_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "publishhouses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "publishhouse_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 2019_08_06_012335) do
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "user_name"
@@ -56,7 +22,4 @@ ActiveRecord::Schema.define(version: 2019_08_08_040328) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
-  add_foreign_key "books", "authors"
-  add_foreign_key "books", "categories"
-  add_foreign_key "books", "publishhouses"
 end
