@@ -9,10 +9,10 @@ class BooksController < ApplicationController
 
   private
 
-    def load_book
-      @book = Book.find_by id: params[:id]
-      return if @book
-      flash[:none] = t "none"
-      redirect_to root_path
-    end
+  def load_book
+    @book = Book.find_by id: params[:id]
+    return if @book
+    flash[:none] = t "none"
+    redirect_to root_path
+  end
 end
