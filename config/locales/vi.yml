@@ -9,8 +9,6 @@ vi:
   home: "Trang chủ"
   home_intro: "Tìm hiểu thêm"
   welcome: "Chào mừng đến với BookReview!"
-  newest: "Sách mới"
-  trans: "dịch"
 
   #About
   about: "Về chúng tôi"
@@ -44,3 +42,8 @@ vi:
 
   #Search
   search: "Tìm kiếm"
+
+  #Showing books pages
+  books: "Tất cả sách"
+  author: "Tác giả: "
+  publishhouse: "Nhà xuất bản: "

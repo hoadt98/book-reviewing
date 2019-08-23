@@ -9,8 +9,6 @@ en:
   home: "Home"
   home_intro: "Learn more"
   welcome: "Welcome to BookReview!"
-  newest: "The newest"
-  trans: "translated"
 
   #About
   about: "About"
@@ -44,3 +42,8 @@ en:
 
   #Search
   search: "Search"
+
+  #Showing books pages
+  books: "All books"
+  author: "Author: "
+  publishhouse: "Publishing house: "
