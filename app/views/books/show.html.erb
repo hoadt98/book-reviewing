@@ -6,12 +6,11 @@
   <div class="col p-4 d-flex flex-column position-static">
     <h2> <strong class="mb-0"><%= @book.book_name %> </strong></h2>
     <div class="d-inline-block mb-2 text-primary">
-      <%= t"author"%>
-      <%= @book.author_name %>
-    </div>
-    <div class="mb-1 text-muted">
-      <%= t"publishhouse"%>
-      <%= @book.publishhouse_name %>
+      <%= t "author"%>
+      <%= link_to @book.author_name, @author %>
+      <br>
+      <%= t "publishhouse"%>
+      <%= link_to @book.publishhouse_name, @publishhouse %>
     </div>
     <p class="card-text mb-auto"><%= @book.description %></p>
   </div>
