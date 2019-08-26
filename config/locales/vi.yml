@@ -4,6 +4,8 @@ vi:
   profile: "Hồ sơ"
   settings: "Cài đặt"
   log_out: "Đăng xuất"
+  book: "Sách"
+  category: "Thể loại"
 
   home: "Trang chủ"
   home_intro: "Tìm hiểu thêm"
@@ -39,5 +41,3 @@ vi:
   books: "Tất cả sách"
   author: "Tác giả: "
   publishhouse: "Nhà xuất bản: "
-
-  authors: "Tất cả tác giả"
