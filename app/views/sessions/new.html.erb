@@ -15,11 +15,12 @@
         <%= f.check_box :remember_me %>
         <span><%= t"remember" %></span>
       <% end %>
+
       <br>
       <%= f.submit t("log_in"), class: "btn btn-primary" %>
     <% end %>
 
-    <p> </p>
+    <br>
     <p><%= t"new" %> <%= link_to t("create_free"), signup_path %></p>
   </div>
 </div>

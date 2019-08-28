@@ -4,6 +4,8 @@ en:
   profile: "Profile"
   settings: "Settings"
   log_out: "Log out"
+  book: "Books"
+  category: "Category"
 
   home: "Home"
   home_intro: "Learn more"
@@ -39,5 +41,3 @@ en:
   books: "All books"
   author: "Author: "
   publishhouse: "Publishing house: "
-
-  authors: "All authors"

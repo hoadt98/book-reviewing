@@ -13,5 +13,6 @@ Rails.application.routes.draw do
     resources :books
     resources :authors
     resources :publishhouses
+    resources :categories
   end
 end
